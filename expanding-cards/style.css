@@ -1,0 +1,56 @@
+@import url(/options/reset.css);
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  width: 90vw;
+  gap: 20px;
+}
+
+.card {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  border-radius: 50px;
+  color: white;
+  flex: 0.5;
+  position: relative;
+  cursor: pointer;
+  transition: all 700ms ease-in;
+}
+
+.card h3 {
+  position: absolute;
+  font-size: 24px;
+  bottom: 30px;
+  left: 20px;
+  opacity: 0;
+}
+
+.card.active {
+  flex: 5;
+}
+
+.card.card.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100vw;
+  }
+
+  .card:nth-of-type(4),
+  .card:nth-of-type(5) {
+    display: none;
+  }
+}
