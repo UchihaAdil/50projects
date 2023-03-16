@@ -1,0 +1,59 @@
+@import url(/options/reset.css);
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(108, 108, 255);
+  overflow: hidden;
+}
+
+.container {
+  width: 700px;
+  padding: 50px 20px;
+  text-align: center;
+
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px ;
+}
+
+h3 {
+  opacity: 0.5;
+  letter-spacing: 2px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.joke {
+  max-width: 600px;
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 40px;
+}
+
+.jokeBtn {
+  background-color: rgb(108, 108, 255);
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.jokeBtn:active {
+  transform: scale(0.98);
+}
+
+.jokeBtn:focus {
+  outline: 0;
+}
