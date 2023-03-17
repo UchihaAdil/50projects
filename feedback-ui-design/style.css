@@ -1,0 +1,87 @@
+@import url(/options/reset.css);
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  color: #444;
+  background-color: rgb(247, 255, 255);
+}
+
+h4 {
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+.feedback {
+  background-color: white;
+  padding: 30px 20px;
+  width: 450px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.feedback__ratings {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.rating {
+  width: 100px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.rating span {
+  font-size: 38px;
+  line-height: 60px;
+}
+
+.rating p {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.feedback__submit {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  align-self: center;
+  background-color: #444;
+  color: white;
+  cursor: pointer;
+}
+
+.thank {
+  text-align: center;
+}
+
+.heart {
+  font-size: 36px; 
+  color: red;
+}
+
+/* //////////////////// */
+/* ACTIVE */
+
+.rating:hover, 
+.rating.active{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.rating.active p,
+.rating:hover p{
+  opacity: 1;;
+}
+
+.feedback__submit:hover {
+  transform: scale(0.98);
+}
