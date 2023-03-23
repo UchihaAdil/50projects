@@ -1,0 +1,104 @@
+@import url(/options/reset.css);
+
+:root {
+  --primary-color: #22254b;
+  --secondary-color: #373b69;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+header {
+  background-color: var(--secondary-color);
+  display: flex;
+  align-items: center ;
+  justify-content: flex-end;
+  height: 70px;
+  padding: 0 20px;
+}
+
+.search {
+  color: white;
+  padding: 10px 20px;
+  outline: none;
+  border: 3px solid var(--primary-color);
+  border-radius: 50px;
+  background-color: var(--secondary-color);
+}
+
+.search::placeholder {
+  color: rgb(186, 186, 186);
+}
+
+.search:focus {
+  background-color: var(--primary-color);
+}
+
+/* MOVIE-LIST-CARD */
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie {
+  width: 300px;
+  margin: 1rem;
+  position: relative;
+  background-color: var(--secondary-color);
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.movie img {
+  width: 100%;
+}
+
+.movie__info {
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.2rem;
+  padding: 0.5rem 1rem 1rem;
+  letter-spacing: 0.5px;
+}
+
+.movie__info span {
+  padding: 0.25rem 0.5rem;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+}
+
+.green {
+  color: green;
+}
+
+.orange {
+  color: orange;
+}
+
+.red {
+  color: red;
+}
+
+.overview {
+  background-color: #fff;
+  padding: 2rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  max-height: 100%;
+  transform: translateY(101%);
+  overflow-y: auto;
+  transition: transform 0.3s ease-in;
+}
+
+.movie:hover .overview {
+  transform: translateY(0);
+}
