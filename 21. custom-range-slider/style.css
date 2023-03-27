@@ -1,0 +1,56 @@
+@import url(/options/reset.css);
+
+.wrapper {
+  background-image: linear-gradient(150deg, #fe7480 0%, #865dd3 100%);
+}
+
+h2 {
+  position: absolute;
+  top: 10px;
+}
+
+.container {
+  position: relative;
+}
+
+input {
+
+}
+
+input[type='range'] {
+  width: 300px;
+  margin: 18px 0;
+  border-radius: 5px;
+  -webkit-appearance: none;
+}
+
+input[type='range'] + label {
+  position: absolute;
+  top: -25px;
+  left: 110px;
+  background-color: white;
+  text-align: center;
+  padding: 5px 0;
+  width: 80px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #d04955 0%, #552aa5 100%);
+  border-radius: 5px;
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 24px;
+  width: 24px;
+  background: #fff;
+  border-radius: 50%;
+  border: 2px solid purple;
+  margin-top: -7px;
+  cursor: pointer;
+}

@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+	background-color: lightblue;
+}
+
+.app {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 200px);
+	padding: 24px;
+	gap: 24px;
+}
+.sticker {
+	font-size: 16px;
+	height: 200px;
+	padding: 16px;
+	border: none;
+	border-radius: 20px;
+	resize: none;
+	/* outline: none; */
+	box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+}
+.add__sticker {
+	font-size: 100px;
+	color: white;
+	background-color: rgba(255, 255, 255, 0.1);
+	cursor: pointer;
+	outline: none;
+}
+
+.add__sticker:hover {
+	background-color: rgba(255, 255, 255, 0.2);
+}
