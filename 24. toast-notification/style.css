@@ -1,0 +1,45 @@
+@import url(/options/reset.css);
+
+
+body {
+  background-color: rgb(64, 29, 145);
+}
+
+.btn {
+  border-radius: 10px;
+  border: none;
+  padding: 14px 30px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: rgb(64, 29, 145);
+  cursor: pointer;
+}
+
+.toasts {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.toast {
+  background-color: white;
+  padding: 14px 30px;
+  border-radius: 10px;
+  margin: 0.5rem;
+}
+
+.toast.info {
+  color: rgb(64, 29, 145);
+}
+
+.toast.success {
+  color: rgb(29, 145, 35);
+}
+
+.toast.error {
+  color: rgb(181, 43, 43);
+}
