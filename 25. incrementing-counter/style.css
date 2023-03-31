@@ -1,0 +1,34 @@
+@import url(/options/reset.css);
+
+body {
+  background-color: rgb(255, 122, 122);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.social i {
+  color: white;
+  font-size: 64px;
+}
+
+.social p {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.counter {
+  color: white;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
