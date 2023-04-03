@@ -1,0 +1,16 @@
+@import url(/options/reset.css);
+
+body {
+  background-color: lightslategray;
+}
+
+div {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: white;
+  font-weight: bold;
+}
+
+small {
+  font-weight: 400;
+}

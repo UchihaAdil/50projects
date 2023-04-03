@@ -1,7 +1,7 @@
 @import url(/options/reset.css);
 
 body {
-  background-color: rgb(255, 122, 122);
+  background: linear-gradient(-90deg, rgb(255, 37, 37) 0%, purple 100%);
 }
 
 .container {
