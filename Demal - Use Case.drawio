@@ -1,17 +1,14 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.0">
   <diagram name="Страница-1" id="3FBy3ojJWf8SwviYcZ-9">
-    <mxGraphModel>
+    <mxGraphModel dx="1895" dy="967" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Приложение DEMAL" vertex="1">
-          <mxGeometry height="910" width="263" x="144" y="8" as="geometry" />
-        </mxCell>
         <mxCell id="3" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" value="👤 User" vertex="1">
           <mxGeometry height="70" width="70" x="16" y="294" as="geometry" />
         </mxCell>
         <mxCell id="4" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" value="🛠️ Admin" vertex="1">
-          <mxGeometry height="86" width="86" x="8" y="732" as="geometry" />
+          <mxGeometry height="86" width="86" x="413" y="286" as="geometry" />
         </mxCell>
         <mxCell id="5" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" value="Register / Login" vertex="1">
           <mxGeometry height="39" width="139" x="206" y="43" as="geometry" />
@@ -35,13 +32,13 @@
           <mxGeometry height="39" width="105" x="223" y="577" as="geometry" />
         </mxCell>
         <mxCell id="12" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" value="Manage Categories" vertex="1">
-          <mxGeometry height="39" width="159" x="196" y="666" as="geometry" />
+          <mxGeometry height="39" width="159" x="601" y="220" as="geometry" />
         </mxCell>
         <mxCell id="13" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" value="View All Routes" vertex="1">
-          <mxGeometry height="39" width="134" x="208" y="755" as="geometry" />
+          <mxGeometry height="39" width="134" x="613" y="309" as="geometry" />
         </mxCell>
         <mxCell id="14" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" value="View All Users" vertex="1">
-          <mxGeometry height="39" width="125" x="213" y="844" as="geometry" />
+          <mxGeometry height="39" width="125" x="618" y="398" as="geometry" />
         </mxCell>
         <mxCell id="15" edge="1" parent="1" source="3" style="curved=1;startArrow=none;endArrow=block;exitX=0.63;exitY=0.01;entryX=0;entryY=0.5;" target="5" value="">
           <mxGeometry relative="1" as="geometry">
@@ -93,7 +90,7 @@
         <mxCell id="22" edge="1" parent="1" source="4" style="curved=1;startArrow=none;endArrow=block;exitX=0.88;exitY=0;entryX=0;entryY=0.5;" target="12" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="119" y="686" />
+              <mxPoint x="524" y="240" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -105,7 +102,7 @@
         <mxCell id="24" edge="1" parent="1" source="4" style="curved=1;startArrow=none;endArrow=block;exitX=0.88;exitY=0.99;entryX=0;entryY=0.5;" target="14" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="119" y="864" />
+              <mxPoint x="524" y="418" />
             </Array>
           </mxGeometry>
         </mxCell>
